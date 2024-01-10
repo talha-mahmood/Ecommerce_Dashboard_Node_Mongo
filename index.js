@@ -7,8 +7,9 @@ const app = express();
 require("./db/config");
 const Product = require("./db/Product")
 const User = require("./db/User")
-// const connectDB=async()=>{
-//   const data=await User.find();
+
+//const dbconnect=aysnc()=>{
+  //   const data=await User.find();
 //   console.log(data)
 // }
 // connectDB();
