@@ -13,7 +13,7 @@ const User = require("./db/User")
 //   console.log(data)
 // }
 // connectDB();
-app.use(cors())
+app.use(cors())// use cors to not get error while contacting frontend
 app.use(express.json())
 
 app.get("/",(req,resp)=>{
