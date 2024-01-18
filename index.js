@@ -49,7 +49,7 @@ app.post("/login", async (req, resp) => {
       })
     }
     else {
-      resp.send({ result: "user is not present in database" })
+      resp.send({ result: "user is not present in database" }) // if user is not present in database
     }
   }
   else {
