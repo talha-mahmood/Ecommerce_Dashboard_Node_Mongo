@@ -70,7 +70,7 @@ app.get("/products",verifytoken, async (req, resp) => {
     console.log(products)
   }
   else {
-    resp.send({ result: "No Products Found" })
+    resp.send({ result: "No Products Found" }) // empty product list
   }
 })
 
